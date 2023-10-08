@@ -45,7 +45,7 @@ let chevy = {
         alert("У меня в баку " + this.fuel + " литрів бензину!");
     },
     toString: function () {
-        return 'Автомобіль ' + this.make;
+        return 'Автомобіль ' + this.make + 'Рівень палива: ' + this.fuel;
     }
 };
 
