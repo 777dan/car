@@ -25,6 +25,7 @@ let chevy = {
         // метод drive
         if (this.fuel === 0) {
             alert("Паливо закінчилося");
+            this.started = false;
         } else {
             if (this.started) {
                 alert("Біп!");
